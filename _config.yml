@@ -28,26 +28,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-#Social
-minima:
-  social_links:
-    twitter: jekyllrb
-    github: jekyll
-    stackoverflow: "11111"
-    dribbble: jekyll
-    facebook: jekyll
-    flickr: jekyll
-    instagram: jekyll
-    linkedin: jekyll
-    pinterest: jekyll
-    telegram: jekyll
-    microdotblog: jekyll
-    keybase: jekyll
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  social_links:
+    facebook:
+    instagram: blocknatics
+    linkedin:
 
 # Exclude from processing.
 # The following items will not be processed, by default.

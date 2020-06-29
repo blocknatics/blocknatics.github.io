@@ -1,3 +1,5 @@
+
+{%- assign social = site.minima.social_links -%}
   <!-- Site footer -->
   <footer class="site-footer">
     <div class="container">
@@ -37,9 +39,9 @@
 
         <div class="col-md-4 col-sm-6 col-xs-12">
           <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            {%- if social.facebook -%}  <li><a class="facebook"  href="#"><i class="fa fa-facebook"></i></a></li>{%- endif -%}
+            {%- if social.instagram -%} <li><a rel="me" class="instagram" href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}"><i class="fa fa-instagram"></i></a></li>{%- endif -%}
+            {%- if social.linkedin -%}  <li><a class="linkedin"  href="#"><i class="fa fa-linkedin"></i></a></li>{%- endif -%}
           </ul>
         </div>
       </div>
