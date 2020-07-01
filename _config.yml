@@ -36,7 +36,7 @@ plugins:
 minima:
   social_links:
     facebook:
-    instagram: blocknatics
+    instagram:
     linkedin: erion-ricardo-barasuol-82722a30
 
 # Exclude from processing.
