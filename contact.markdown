@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Entre em contato conosco
+title: Entre em contato
 permalink: /contact/
 ---
 

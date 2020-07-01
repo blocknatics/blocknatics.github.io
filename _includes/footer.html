@@ -7,23 +7,28 @@
         <div class="col-sm-12 col-md-6">
             <h6>< Sobre ></h6>
             <p class="text-justify">
-            Você é apaixonado por Blockchain ou quer conhecer, mas acha difícil encontrar conteúdo de qualidade?
-
-            Então está no lugar certo...
-            
-            Aqui na Blocknatics, nos fazemos o melhor para entregar o que você precisa para conhecer Blockchain de verdade, e melhor, de uma maneira que o conhecimento fique na sua cabeça.
-            
-            Porque aqui a gente faz o que gosta!!
+            Aqui você encontra conteúdo de qualidade voltado ao Blockchain.
+            Se você é desenvolvedor, ou quer conhecer mais sobre o assunto este é o lugar certo.
             </p>
         </div>
 
         <div class="col-xs-6 col-md-3">
           <h6>< Quick Links ></Quick></h6>
           <ul class="footer-links">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <li>
+                  <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+            <!--
             <li><a href="#">Mais Sobre Nós</a></li>
             <li><a href="#">Fale Conosco</a></li>
             <li><a href="#">Contribua</a></li>
             <li><a href="#">Política de Privacidade</a></li>
+            -->
           </ul>
         </div>
       </div>
@@ -41,7 +46,7 @@
           <ul class="social-icons">
             {%- if social.facebook -%}  <li><a class="facebook"  href="#"><i class="fa fa-facebook"></i></a></li>{%- endif -%}
             {%- if social.instagram -%} <li><a rel="me" class="instagram" href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}"><i class="fa fa-instagram"></i></a></li>{%- endif -%}
-            {%- if social.linkedin -%}  <li><a class="linkedin"  href="#"><i class="fa fa-linkedin"></i></a></li>{%- endif -%}
+            {%- if social.linkedin -%}  <li><a rel="me" class="linkedin"  href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}"><i class="fa fa-linkedin"></i></a></li>{%- endif -%}
           </ul>
         </div>
       </div>
