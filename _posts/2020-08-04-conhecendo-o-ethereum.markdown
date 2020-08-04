@@ -55,7 +55,7 @@ Uma criptomoeda estável que tem valor de USD 1
 <br/>
 
 ## <strong>Criando dapps
-<span class="paragraph">De maneira geral o site da Ethereum tem uma seção só para desenvolvedores, que conta com uma seria de artigos e vídeos, que explicam desde como a rede funciona, até como criar aplicações ou começar a minerar.
+<span class="paragraph">De maneira geral o site da <a href="https://ethereum.org/en/developers/">Ethereum</a> tem uma seção só para desenvolvedores, que conta com uma seria de artigos e vídeos, que explicam desde como a rede funciona, até como criar aplicações ou começar a minerar. 
 
 <span class="paragraph">Mas se você acha complicado sair recolhendo entendimento de vários conteúdos, não se preocupe, estamos dando início a uma série de posts onde trarei um compilado de conhecimento que vai te ajudar a iniciar no desenvolvimento.<br/>
 
