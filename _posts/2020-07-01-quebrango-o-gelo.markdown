@@ -9,7 +9,7 @@ categories: blockchain intro
 <span class="paragraph">Em 2008 Satoshi Nakamoto, uma identidade desconhecida, publica um artigo nomeado “Bitcoin: A Peer-to-Peer eletronic Cash System”, um artigo que no ano seguinte daria início a uma nova revolução, que até o dia em que escrevo este artigo continua em crescimento para todas as áreas da sociedade. 
 Não irei entrar em mais detalhes sobre Bitcoin, mas o que precisamos entender é que, ele só consegue existir em sua essência, pela tecnologia que o compõe por trás dos holofotes. Estamos então falando agora do Blockchain, que podemos entender como uma rede de computadores que opera em formato peer-to-peer, rodando regras pré-estabelecidas para armazenar transações de maneira decentralizada e distribuída.
 
-## <strong>Entendo de maneira simplificada
+## <strong>Entendendo de maneira simplificada
 <span class="paragraph">Para exemplificar de maneira mais fácil esse conceito imagine o compartilhamento de arquivos via P2P, como eMule por exemplo. Quando alguém deseja baixar algum arquivo, conecta-se à rede pelo aplicativo, onde torna-se um integrante servindo-a então tanto como cliente ou servidor.
 Entenda então que nesse caso todos que estão conectados à rede estão contribuindo para seu funcionamento.<br/>
 <span class="paragraph">Você pode então baixar algum arquivo, que consequentemente é uma cópia do que está com outros usuários da rede. Veja então que no final das contas, todos estão trabalhando com cópias de uma informação qual seja.<br/>
