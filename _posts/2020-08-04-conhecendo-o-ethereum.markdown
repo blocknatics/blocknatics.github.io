@@ -59,6 +59,7 @@ Uma criptomoeda estável que tem valor de USD 1
 
 <span class="paragraph">Mas se você acha complicado sair recolhendo entendimento de vários conteúdos, não se preocupe, estamos dando início a uma série de posts onde trarei um compilado de conhecimento que vai te ajudar a iniciar no desenvolvimento.<br/>
 
+
 Qualquer duvida entre em contato por <a href="/contact/">aqui</a> ou pelo <a href="https://www.linkedin.com/in/erion-ricardo-barasuol-82722a30/">linkedin</a>, obrigado e até a próxima.
 
 
