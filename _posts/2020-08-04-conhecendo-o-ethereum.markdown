@@ -63,7 +63,7 @@ Uma criptomoeda estável que tem valor de USD 1
 
 Qualquer duvida entre em contato por <a href="/contact/">aqui</a> ou pelo <a href="https://www.linkedin.com/in/erion-ricardo-barasuol-82722a30/">linkedin</a>, obrigado e até a próxima.
 
-
+ 
 <style>
 .paragraph {
     margin-left: 50px;
